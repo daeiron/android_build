@@ -618,6 +618,7 @@ function lunch()
 
     set_stuff_for_environment
     printconfig
+    source $ANDROID_BUILD_TOP/build/cleanfornewbuild.sh
 }
 
 # Tab completion for lunch.
